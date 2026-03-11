@@ -89,7 +89,7 @@ Possible output:
 }
 ```
 
-## Question 3 – Merge Two Dictionaries
+## Question 3 – Bonus - Merge Two Dictionaries
 
 Create a function that receives **two dictionaries**.
 
