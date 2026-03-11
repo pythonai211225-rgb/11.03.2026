@@ -4,7 +4,7 @@ Solve **at least one question**
 It is recommended to solve **more than one**
 All solutions must be written in **Python**
 
-# Question 1 – Digital Business Card
+## Question 1 – Digital Business Card
 
 <img src="card.jpg" style="width:50%"/>
 
@@ -42,7 +42,7 @@ Phone: 0501234567
 Job Title: Data Analyst
 ```
 
-# Question 2 – Statistics Function
+## Question 2 – Statistics Function
 
 Create a function called:
 
@@ -87,7 +87,7 @@ Possible output:
 }
 ```
 
-# Question 3 – Merge Two Dictionaries
+## Question 3 – Merge Two Dictionaries
 
 Create a function that receives **two dictionaries**.
 
