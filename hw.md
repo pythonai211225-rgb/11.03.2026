@@ -6,7 +6,7 @@ All solutions must be written in **Python**
 
 # Question 1 – Digital Business Card
 
-<img src="card.jpg" />
+<img src="card.jpg" style="width:50%"/>
 
 Write a program that asks the user to enter the following information:
 
