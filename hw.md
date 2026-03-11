@@ -44,7 +44,7 @@ Job Title: Data Analyst
 
 ## Question 2 – Statistics Function
 
-<img src="stats.jpg" style="width:50%"/>
+<img src="stats.png" style="width:50%"/>
 
 Create a function called:
 
