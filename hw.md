@@ -135,5 +135,3 @@ Possible result:
 
 **Submission email:** [pythonai211225+python17dict@gmail.com](mailto:pythonai211225+python17dict@gmail.com)
 
-country -> Israel
-```
