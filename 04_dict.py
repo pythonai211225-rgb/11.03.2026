@@ -1,3 +1,4 @@
+from random import random
 
 a = [100]
 
@@ -72,12 +73,75 @@ print(('age', 21) in details.items())
 # create dictionary of yourself
 # 'name', 'year_of_birth', 'address_city', 'height', 'phone', 'siblings' set/tuple/list
 
-# BONUS: create dict of your addrres with: country, city, street
+# BONUS: create dict of your address with: country, city, street
 d = {
     'age': 18, # just example
     'address' : {
 
     }
 }
+
+person = {
+    "name": "Avi",
+    "age": 20,
+    "city": "Haifa"
+}
+print(person.keys())
+print(person.values())
+print(person.items())
+for k, v in person.items():
+    print(f"{k}: {v}")
+print(('city', 'Haifa') in person.items())
+
+'''
+grades = {}
+while True:
+    stud_name = input('Enter name [or "exit"]:')
+    if stud_name == 'exit':
+        break
+    stud_grade = int(input('Grade?'))
+    grades[stud_name] = stud_grade
+
+while True:
+    print('look for grade:')
+    stud_name = input('Enter name [or "exit"]:')
+    if stud_name == 'exit':
+        break
+    # if stud_name in grades:
+    #     print(grades[stud_name])
+    # else:
+    #     print(f"{stud_name} not exist in dict")
+
+    print(grades.get(stud_name, f"{stud_name} not exist in dict"))
+'''
+
+# pattern for example 55 is the lucky number
+# dict_num = {
+#     1: 'too low',
+#     2: 'too low',
+#     # ...
+#     55: 'Bingo',
+#     56: 'too high',
+#     57: 'too high'
+#     # .. 100
+# }
+
+dict_num = {}
+
+import random
+
+random_number = random.randint(1, 100)
+dict_num[random_number] = 'Bingo!'
+for i in range(1, random_number):
+    dict_num[i] = 'You guessed too Low!'
+for i in range(random_number + 1, 101):
+    dict_num[i] = 'Too High!'
+
+while True:
+    guess = int(input('guess number?'))
+    print(dict_num[guess])
+    if dict_num[guess] == 'Bingo!':
+        break
+
 
 
