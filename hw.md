@@ -6,6 +6,8 @@ All solutions must be written in **Python**
 
 # Question 1 – Digital Business Card
 
+<img src="card.jpg" />
+
 Write a program that asks the user to enter the following information:
 
 * name
