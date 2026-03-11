@@ -1,0 +1,8 @@
+[11-03-2026 18:55]  INFO: waiter got order of humus
+[11-03-2026 18:55]  INFO: kitchen_manager got order of humus
+[11-03-2026 18:55]  INFO: kitchen got order of humus
+[11-03-2026 18:55]  ERROR: Kitchen ran out of dough for Pita
+[11-03-2026 18:56]  INFO: waiter got order of humus
+[11-03-2026 18:56]  INFO: kitchen_manager got order of humus
+[11-03-2026 18:56]  INFO: kitchen got order of humus
+[11-03-2026 18:56]  ERROR: Kitchen ran out of dough for Pita
